@@ -57,12 +57,14 @@
     
     //make the  TIME text field
     timeText = [[UITextField alloc]initWithFrame:[myGridLayout gridLayoutRectRow:1 column:2 rowSpan:1 columnspan:2]];
-    timeText.placeholder = @"00";
+    timeText.placeholder = @" 00";
+    timeText.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:timeText];
     
     //make the  voltage  text field
     UITextField *voltageText = [[UITextField alloc]initWithFrame:[myGridLayout gridLayoutRectRow:2 column:2 rowSpan:1 columnspan:2]];
-    voltageText.placeholder = @"150";
+    voltageText.placeholder = @" 150";
+    voltageText.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:voltageText];
     
     //make the on/off button
