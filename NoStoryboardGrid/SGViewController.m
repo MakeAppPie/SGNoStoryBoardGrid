@@ -42,6 +42,7 @@
 }
 
 -(void)makeViewsOnController{
+    self.view.backgroundColor = [UIColor colorWithRed:0.9 green:0.9 blue:0.93 alpha:1.0 ];
      self.view.contentMode = UIViewContentModeRedraw;
     //[myGridLayout initWithFrame:self.view.frame rows:6 columns:5];
 
